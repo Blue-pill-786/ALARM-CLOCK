@@ -1,6 +1,6 @@
 body{
    
-    background-image: linear-gradient(to right, rgba(33, 234, 203, 0.777), rgb(31, 106, 235));
+    /* background-image: url(https://png.pngtree.com/background/20210715/original/pngtree-blue-geometric-alarm-clock-background-picture-image_1284646.jpg); */
     margin: auto;
   width: 70%;
   /* border: 3px solid green; */
@@ -19,21 +19,21 @@ body{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px;
-    background-image: linear-gradient(to left, red , yellow);
+    background-image: linear-gradient(to right, white , yellow, red);
 }
 
 .outer{
     margin: auto;
     width: 70%;
-    height: auto;
+    height: 500px;
     /* border: 3px solid green; */
     padding: 10px;
     border-radius: 30px;
-    background-image: linear-gradient(to right, rgba(75, 247, 141, 0.59), rgb(255, 187, 0));
+    background-image: linear-gradient(to bottom, pink, yellow, white);
 }
 #alarmTime{
     margin: auto;
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, rgb(13, 231, 122) , yellow);
     width: 50%;
     border-radius: 20px;
     border: 3px double black;
@@ -50,7 +50,7 @@ body{
     font-weight: 700;
     text-align: center;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 28%;
     width: 50%;
     border-radius: 20px;
@@ -61,18 +61,19 @@ body{
 
 #setAlarm{
     margin: auto;
+    margin-top: 50px;
     width: 40%;
     margin-left: 35%;
     /* border: 3px solid green; */
     padding: 10px;
     border-radius: 20px;
-    background-image: linear-gradient(to right, red , yellow);
-    margin-top: 30px;
+    background-image: linear-gradient(to right, rgb(30, 243, 232) , yellow);
+   
 }
 #stopAlarm{
-    background-image: linear-gradient(to right, red , yellow);
+    background-image: linear-gradient(to right, YELLOW, rgb(30, 243, 232) );
     margin: auto;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 35%;
     width: 40%;
     border: 2px solid black;
